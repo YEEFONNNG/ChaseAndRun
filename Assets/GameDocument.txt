@@ -1,0 +1,20 @@
+﻿Patrol Guard
+Done:
+Patrolling route is on the last position and the current position of the guard after losing sight of the player
+Improve:
+* Can set rally points on the map for patrol and find the nearest points after chasing
+* Thinking of using AI to find the best distribution for best defense but not sure what data to feed the AI and also time constraint
+Chasing Player
+Done:
+Chase after detection, configuration of Distance and Angle of detection is available in the inspector. Light will be red when detected, white otherwise
+Improve:
+* Currently still able to walk outside the map
+* Can have a shader for better vision lighting effects
+Sound Detection
+Done:
+Alarm is to alert nearby guards - simple colliders are used to detect if player triggered the alarm and to inform guards around
+Improve:
+* Can add more detection such as hand triggered alarm, throwing things to make noise
+Overall
+Improve:
+* Can add more obstacle, better GameOver UI and better game mechanics for example, collect coins or survive longer
